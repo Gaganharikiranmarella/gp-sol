@@ -1,0 +1,29 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Vibrant Color Scheme */
+:root {
+  --orange: #FF6B35;
+  --red: #FF3131;
+  --yellow: #FFD23F;
+  --white: #FFFFFF;
+  --light-orange: #FFB88C;
+  --gradient-1: linear-gradient(135deg, var(--orange) 0%, var(--red) 100%);
+  --gradient-2: linear-gradient(135deg, var(--yellow) 0%, var(--orange) 100%);
+  --gradient-3: linear-gradient(135deg, var(--red) 0%, var(--yellow) 100%);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section styling */
+section {
+  position: relative;
+  z-index: 1;
+  padding: 80px 20px;
+}
