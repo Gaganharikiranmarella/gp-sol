@@ -1,0 +1,21 @@
+{
+  "name": "gp-sol",
+  "version": "1.0.0",
+  "description": "A modern, full-stack web application with a vibrant orange/red/yellow/white theme, built with modularity in mind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaganharikiranmarella/gp-sol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gaganharikiranmarella/gp-sol/issues"
+  },
+  "homepage": "https://github.com/Gaganharikiranmarella/gp-sol#readme"
+}
