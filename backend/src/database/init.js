@@ -27,12 +27,9 @@ export const initDatabase = async () => {
   
   if (count.count === 0) {
     const services = [
-      ['Web Development', 'Modern, responsive websites built with cutting-edge technologies'],
-      ['Mobile Apps', 'Native iOS and Android applications for seamless user experiences'],
-      ['Cloud Services', 'Scalable cloud infrastructure and deployment solutions'],
-      ['Consulting', 'Expert technical consulting and strategic planning'],
-      ['UI/UX Design', 'Beautiful, intuitive designs that users love'],
-      ['Data Analytics', 'Transform your data into actionable insights']
+      ['Software Solutions', 'Custom software development and enterprise applications tailored to your business needs'],
+      ['Defense Solutions', 'Advanced defense systems and security solutions for mission-critical operations'],
+      ['AI Solutions', 'Cutting-edge artificial intelligence and machine learning solutions that drive innovation']
     ]
     
     for (const service of services) {

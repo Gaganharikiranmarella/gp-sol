@@ -13,9 +13,9 @@ const Services = () => {
       .catch(error => {
         console.log('Using fallback services')
         setServices([
-          { id: 1, title: 'Web Development', description: 'Modern, responsive websites' },
-          { id: 2, title: 'Mobile Apps', description: 'iOS and Android solutions' },
-          { id: 3, title: 'Cloud Services', description: 'Scalable cloud infrastructure' },
+          { id: 1, title: 'Software Solutions', description: 'Custom software development and enterprise applications tailored to your business needs' },
+          { id: 2, title: 'Defense Solutions', description: 'Advanced defense systems and security solutions for mission-critical operations' },
+          { id: 3, title: 'AI Solutions', description: 'Cutting-edge artificial intelligence and machine learning solutions that drive innovation' },
         ])
       })
   }, [])
